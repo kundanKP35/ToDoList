@@ -1,0 +1,99 @@
+body {
+  background-color: #0c5687;
+  background-image: url("https://www.transparenttextures.com/patterns/brushed-alum-dark.png");
+  min-height: 68vh;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  box-sizing: border-box;
+  display: flex;
+  font-family: "Mukta";
+  text-align: center;
+  color: hsl(210, 20%, 94%);
+  font-size: 130%;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  min-height: 450px;
+  max-width: 500px;
+  min-width: 250px;
+  background: #F1FDFD;
+  background-size: 25px 25px;
+  border-radius: 20px;
+  box-shadow: 4px 3px 6px 2px #15151540;
+  padding: 1rem 0;
+  box-sizing: border-box;
+}
+
+.heading {
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.heading h1 {
+  padding: 0.2rem 1.2rem;
+  background-color: #0c5687;
+  background-image: url("https://www.transparenttextures.com/patterns/brushed-alum-dark.png");
+  font-size: 1.5rem;
+}
+
+.form input {
+  box-sizing: border-box;
+  background-color: transparent;
+  padding: 0.5rem;
+  border-bottom-right-radius: 15px 3px;
+  border-bottom-left-radius: 3px 15px;
+  border: solid 3px transparent;
+  border-bottom: solid 3px #0c5687;
+  font-family: "Mukta";
+  font-size: 1rem;
+  color: #0c5687;
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 0;
+  margin-left: 0.5rem;
+  border: none;
+  font-family: "Mukta";
+  text-decoration: none;
+  border-radius: 5px;
+  color: #0c5687;
+}
+button span {
+  background: #F1FDFD;
+  display: block;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: 2px solid #0c5687;
+  font-size: 1rem;
+}
+
+.contentBox{
+  display: flex;
+}
+
+.listItem {
+  color:#0c5687;
+  flex: 4;
+  text-align: left;
+  padding: 0.5rem;
+}
+
+.deleteIcon{
+  color:#0c5687;
+  padding: 0.5rem;
+  flex: 1;
+}
+
+footer p{
+  text-align: center;
+  margin-bottom: 0;
+  height: 2.5rem;
+  color: #F1FDFD;
+  font-size: 0.8rem;
+}
